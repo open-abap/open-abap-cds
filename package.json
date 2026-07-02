@@ -2,8 +2,7 @@
   "name": "open-abap-cds",
   "version": "1.0.0",
   "private": true,
-  "description": "",
-  "main": "index.js",
+  "description": "open-abap-cds",
   "scripts": {
     "test": "abaplint"
   },
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/open-abap/open-abap-cds/issues"
   },
-  "homepage": "https://github.com/open-abap/open-abap-cds#readme"
+  "homepage": "https://github.com/open-abap/open-abap-cds#readme",
+  "dependencies": {
+    "@abaplint/cli": "^2.119.53"
+  }
 }
